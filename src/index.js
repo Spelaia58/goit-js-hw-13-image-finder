@@ -24,6 +24,10 @@ function searchFormsSubmitHandler() {
       text: 'Ничего не найдено',
     });
   }
+  //if (!apiService.query.text) {
+  //return error({
+  //text: 'Эй, такого здесь точно нет!',
+  //});
 
   clearHitsContainer();
   form.reset();
